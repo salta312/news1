@@ -1,0 +1,2 @@
+В этой версии я изменила немного дизайн, добавила меню сбоку, можно просматривать новости с определенного источника, возобновление новостей идет также swipe вниз другой источник, swipe верх все новости, можно также нажать на кнопку сверху. в Обоих версиях можно переворачивать экран ![alt text](https://github.com/salta312/news1/blob/master/1.png) ![alt text](https://github.com/salta312/news1/blob/master/2.png) ![alt text](https://github.com/salta312/news1/blob/master/3.png)
+![alt text](https://github.com/salta312/news1/blob/master/4.png)
