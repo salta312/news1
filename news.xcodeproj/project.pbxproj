@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70DF5091F6145A700579912 /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70DF5081F6145A700579912 /* SourcesViewController.swift */; };
+		B737DB1F1F5E96A6004D8B3A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B737DB1E1F5E96A6004D8B3A /* MyTableViewCell.swift */; };
+		B789C62E1F6017B8008896ED /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789C62D1F6017B8008896ED /* ArticleViewController.swift */; };
 		B7E1C2951F5D444B00BF7AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E1C2941F5D444B00BF7AE0 /* AppDelegate.swift */; };
 		B7E1C2971F5D444B00BF7AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E1C2961F5D444B00BF7AE0 /* ViewController.swift */; };
 		B7E1C29A1F5D444B00BF7AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E1C2981F5D444B00BF7AE0 /* Main.storyboard */; };
 		B7E1C29D1F5D444B00BF7AE0 /* news.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E1C29B1F5D444B00BF7AE0 /* news.xcdatamodeld */; };
 		B7E1C29F1F5D444B00BF7AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E1C29E1F5D444B00BF7AE0 /* Assets.xcassets */; };
 		B7E1C2A21F5D444B00BF7AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E1C2A01F5D444B00BF7AE0 /* LaunchScreen.storyboard */; };
+		B7FF3F2C1F5E6E2700661F72 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF3F2B1F5E6E2700661F72 /* Article.swift */; };
+		D89CD8BB5283D795D2A5A873 /* Pods_news.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921229081CC882C7EED7F10A /* Pods_news.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281A8F308816273C4BE3FC71 /* Pods-news.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-news.release.xcconfig"; path = "Pods/Target Support Files/Pods-news/Pods-news.release.xcconfig"; sourceTree = "<group>"; };
+		3DC09D9CF50F7F3CB74564AA /* Pods-news.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-news.debug.xcconfig"; path = "Pods/Target Support Files/Pods-news/Pods-news.debug.xcconfig"; sourceTree = "<group>"; };
+		921229081CC882C7EED7F10A /* Pods_news.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_news.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70DF5081F6145A700579912 /* SourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
+		B737DB1E1F5E96A6004D8B3A /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		B789C62D1F6017B8008896ED /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		B7E1C2911F5D444B00BF7AE0 /* news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = news.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E1C2941F5D444B00BF7AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E1C2961F5D444B00BF7AE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		B7E1C29E1F5D444B00BF7AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7E1C2A11F5D444B00BF7AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7E1C2A31F5D444B00BF7AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FF3F2B1F5E6E2700661F72 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89CD8BB5283D795D2A5A873 /* Pods_news.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93A729C5D9798306A7EC9D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921229081CC882C7EED7F10A /* Pods_news.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7E1C2881F5D444A00BF7AE0 = {
 			isa = PBXGroup;
 			children = (
 				B7E1C2931F5D444B00BF7AE0 /* news */,
 				B7E1C2921F5D444B00BF7AE0 /* Products */,
+				B8FA466508B5342023A9E0AB /* Pods */,
+				93A729C5D9798306A7EC9D57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +86,21 @@
 				B7E1C2A01F5D444B00BF7AE0 /* LaunchScreen.storyboard */,
 				B7E1C2A31F5D444B00BF7AE0 /* Info.plist */,
 				B7E1C29B1F5D444B00BF7AE0 /* news.xcdatamodeld */,
+				B7FF3F2B1F5E6E2700661F72 /* Article.swift */,
+				B737DB1E1F5E96A6004D8B3A /* MyTableViewCell.swift */,
+				B789C62D1F6017B8008896ED /* ArticleViewController.swift */,
+				B70DF5081F6145A700579912 /* SourcesViewController.swift */,
 			);
 			path = news;
+			sourceTree = "<group>";
+		};
+		B8FA466508B5342023A9E0AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DC09D9CF50F7F3CB74564AA /* Pods-news.debug.xcconfig */,
+				281A8F308816273C4BE3FC71 /* Pods-news.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7E1C2A61F5D444B00BF7AE0 /* Build configuration list for PBXNativeTarget "news" */;
 			buildPhases = (
+				8229F0DB0B839289303C77CB /* [CP] Check Pods Manifest.lock */,
 				B7E1C28D1F5D444B00BF7AE0 /* Sources */,
 				B7E1C28E1F5D444B00BF7AE0 /* Frameworks */,
 				B7E1C28F1F5D444B00BF7AE0 /* Resources */,
+				069E47347DD6628E25676608 /* [CP] Embed Pods Frameworks */,
+				490F4C1ED20216A73C6789B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +138,7 @@
 				TargetAttributes = {
 					B7E1C2901F5D444B00BF7AE0 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 546WXG898K;
+						DevelopmentTeam = BXKWN5Y457;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,14 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		069E47347DD6628E25676608 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-news/Pods-news-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490F4C1ED20216A73C6789B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-news/Pods-news-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8229F0DB0B839289303C77CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7E1C28D1F5D444B00BF7AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FF3F2C1F5E6E2700661F72 /* Article.swift in Sources */,
+				B789C62E1F6017B8008896ED /* ArticleViewController.swift in Sources */,
 				B7E1C2971F5D444B00BF7AE0 /* ViewController.swift in Sources */,
 				B7E1C2951F5D444B00BF7AE0 /* AppDelegate.swift in Sources */,
+				B737DB1F1F5E96A6004D8B3A /* MyTableViewCell.swift in Sources */,
 				B7E1C29D1F5D444B00BF7AE0 /* news.xcdatamodeld in Sources */,
+				B70DF5091F6145A700579912 /* SourcesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +356,10 @@
 		};
 		B7E1C2A71F5D444B00BF7AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC09D9CF50F7F3CB74564AA /* Pods-news.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 546WXG898K;
+				DEVELOPMENT_TEAM = BXKWN5Y457;
 				INFOPLIST_FILE = news/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltaim.news;
@@ -278,9 +370,10 @@
 		};
 		B7E1C2A81F5D444B00BF7AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281A8F308816273C4BE3FC71 /* Pods-news.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 546WXG898K;
+				DEVELOPMENT_TEAM = BXKWN5Y457;
 				INFOPLIST_FILE = news/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltaim.news;
@@ -308,6 +401,7 @@
 				B7E1C2A81F5D444B00BF7AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

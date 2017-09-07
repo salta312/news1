@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Cartography (1.1.0)
+  - HanekeSwift (0.10.1)
+  - KFSwiftImageLoader (3.0.0)
+  - RSLoadingView (1.1.0)
+  - SideMenu (2.3.3)
+  - SwiftSpinner (1.3.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cartography
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift`)
+  - KFSwiftImageLoader (~> 3.0)
+  - RSLoadingView
+  - SideMenu
+  - SwiftSpinner
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :git: https://github.com/Haneke/HanekeSwift
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 694d6df380a2a7450754f2910996fdd650964df2
+    :git: https://github.com/Haneke/HanekeSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  KFSwiftImageLoader: c4656d614329480308b190c2b6f15015a4018ffc
+  RSLoadingView: b9cdf4970da28e5d4b306784688e640696dd80d3
+  SideMenu: a447554ae5c982e8077666389e1c8b0c8656e065
+  SwiftSpinner: c249fffed3e74b5f3e6492dcc05d6bc1525a8220
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 1e296410d2a5782bf4b10ee5a28e103983a01a6e
+
+COCOAPODS: 1.2.1
